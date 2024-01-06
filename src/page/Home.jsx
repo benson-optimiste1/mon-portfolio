@@ -27,9 +27,10 @@ export default function Home() {
                           <img
                             src="/images/c1.jpg"
                             alt=""
-                            className="h-56 w-full object-cover object-center sm:h-full"
+                            className="h-full w-full object-cover object-center sm:h-full"
                           />
                         </div>
+                        <br />
                         <div className="h-64 w-44 overflow-hidden rounded-lg">
                           <img
                             src="/images/c2.jpg"
@@ -101,9 +102,21 @@ export default function Home() {
             <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
               ABOUT ME
             </h2>
-
+            <span className="flex items-center">
+            <span className="h-0.5 flex-1  bg-indigo-500"></span>
+            
+          </span>
             <p className="hidden text-gray-500 md:mt-4 md:block">
-              As a multidisciplinary professional, I bring a unique perspective to every project, combining design, engineering, and software development to create innovative solutions that meet your needs. Whether you’re looking for a distinctive brand identity, a structurally sound design, or a user-friendly web application, I have the skills and expertise to deliver results that exceed your expectations. Let’s work together to bring your vision to life.
+              Evelybenson Chatelain is a dynamic Full Stack Developer and software engineer,
+              passionate about crafting exceptional digital experiences.
+              He excels in technologies such as React, React Native, TypeScript, JavaScript, Node.js, and Express.js,
+              demonstrating mastery of tools driving modern web and mobile development.
+              His proficiency extends to database management with MongoDB, FIRESTORE, MySQL, enriching his skill set.
+              Beyond coding, Evelybenson is a versatile creative force, seamlessly blending technology and design as a graphic designer.
+              His ability to marry technical expertise with a keen eye for aesthetics results in captivating and user-friendly digital solutions.
+              Evelybenson's commitment to shaping the digital landscape is evident in his role as a tech enthusiast and creative genius, using his skills to craft innovative and visually stunning digital interfaces.
+              In summary, Evelybenson is a driving force in the tech world, leaving an indelible mark through his coding prowess and design finesse. 🚀🎨💻
+
             </p>
 
             <div className="mt-4 md:mt-8">
@@ -130,10 +143,16 @@ export default function Home() {
 
       <div className=" bg-gray-100">
         <br />
+        <br />
         <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
           <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
             What Services I'm Providing
           </h2>
+          <span className="flex items-center">
+            <span className="h-0.5 flex-1 bg-indigo-500"></span>
+            <span className="shrink-0 px-6">Of Benson Data</span>
+            <span className="h-0.5 flex-1 bg-indigo-500"></span>
+          </span>
         </div>
         <section class="text-gray-600 body-font">
           <div class="container px-5 py-24 mx-auto">
@@ -235,44 +254,76 @@ export default function Home() {
       </div>
 
       <section class="text-gray-600 body-font bg-gray-100">
-        <div class="container px-5 py-24 mx-auto">
+        <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+          <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+            Work Experience
+          </h2>
+          <span className="flex items-center">
+            <span className="h-0.5 flex-1 bg-green-500"></span>
+            <span className="shrink-0 px-6">Of Benson Data</span>
+            <span className="h-0.5 flex-1 bg-green-500"></span>
+          </span>
+        </div>
+        <div class="container px-3 py-24 mx-auto">
           <div class="flex flex-wrap -m-4">
             <div class="p-4 lg:w-1/3">
-              <div class="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
-             
+              <div class="h-full bg-white bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Software Development</h1>
                 <p class="leading-relaxed mb-3">
                   With expertise in various programming languages and frameworks, I develop customized software solutions that streamline your workflows, enhance your productivity, and improve your bottom line. From web applications to mobile apps, I offer a range of software development services that are tailored to your unique requirements and designed to deliver tangible results.</p>
-                
+                <div>
+                  <h2 className="sr-only">Steps</h2>
+                  <div>
+                    <div className="mt-4 overflow-hidden rounded-full bg-gray-200">
+                      <div className="h-3 w-2/3 rounded-full bg-green-500"></div>
+                    </div>
+                  </div>
+                </div>
+
                 <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                
-                 
+
+
                 </div>
               </div>
             </div>
             <div class="p-4 lg:w-1/3">
-              <div class="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <div class="h-full bg-white bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Civil Engineering</h1>
                 <p class="leading-relaxed mb-3">
                   As a civil engineer, I bring a wealth of technical knowledge and practical experience to every project, ensuring that your designs are structurally sound, safe, and compliant with regulations. From concept to completion, I work closely with you to understand your needs and deliver solutions that meet your specifications and exceed your expectations.</p>
-
+                <div>
+                  <h2 className="sr-only">Steps</h2>
+                  <div>
+                    <div className="mt-4 overflow-hidden rounded-full bg-gray-200">
+                      <div className="h-3 w-2/3 rounded-full bg-green-500"></div>
+                    </div>
+                  </div>
+                </div>
                 <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                
-                 
+
+
                 </div>
               </div>
             </div>
             <div class="p-4 lg:w-1/3">
-              <div class="h-full bg-white bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+              <div class="h-full bg-white bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                 <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Graphic Design</h1>
                 <p class="leading-relaxed mb-3">
                   With a keen eye for aesthetics and a mastery of design software, I create stunning visuals that capture the essence of your brand and communicate your message effectively. From logos to brochures, I offer a full range of graphic design services that help you stand out from the competition and make a lasting impression on your audience.</p>
-
+                <div>
+                  <h2 className="sr-only">Steps</h2>
+                  <div>
+                    <div className="mt-4 overflow-hidden rounded-full bg-gray-200">
+                      <div className="h-3 w-2/3 rounded-full bg-green-500"></div>
+                    </div>
+                  </div>
+                </div>
                 <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
-                
-                 
+
+
                 </div>
               </div>
             </div>
