@@ -13,7 +13,7 @@ const AboutMe = () => {
                     </div>
 
                     <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center md:text-left">
-                        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+                        <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-gray-900">
                             <span class="flex items-center">
                                 <span class="h-1 flex-1 bg-yellow-500"></span>
                                 <span class="shrink-0 px-6">About Me</span>
@@ -123,7 +123,7 @@ const AboutMe = () => {
                 <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
                     <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
                         <div className="sm:max-w-lg pr-8">
-                            <h1 className="text-s font-medium tracking-tight text-gray-950 sm:text-6xl">
+                            <h1 className="text-3xl font-medium  text-gray-900 sm:text-6xl">
                                 My Services
                             </h1>
                             <p className="mt-4 text-xl text-gray-500">
@@ -159,7 +159,7 @@ const AboutMe = () => {
                             <a
                                 href="https://drive.google.com/file/d/1JTNFowgqtrlcaX5ooNfTp88CdVBEMxGI/view?usp=drivesdk"
                                 download="Evelybenson_Chatelain_Resume_2024.pdf"
-                                className="inline-block rounded bg-green-600 px-10 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                                className="inline-block rounded bg-green-600 px-6 md:px-10 py-3 text-sm md:text-base font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
                             >
                                 Download resume
                             </a>
@@ -175,7 +175,7 @@ const AboutMe = () => {
 
 
                 <div className="mx-auto max-w-4xl text-center ltr:l:text-left rtl:l:text-right">
-                    <h2 className="text-4xl font-bold fong-medium text-gray-900 l:text-4xl">
+                    <h2 className="text-3xl font-medium fong-medium text-gray-900 sm:text-6xl">
                         What My Clients Say
                     </h2>
                     <span className="flex items-center">
@@ -199,7 +199,7 @@ const AboutMe = () => {
                                         alt=""
                                     />
                                 </div>
-                                <br/>
+                                <br />
 
 
                                 <span className="flex items-center">
@@ -230,7 +230,7 @@ const AboutMe = () => {
                                     />
 
                                 </div>
-
+                                <br />
 
                                 <span className="flex items-center">
                                     <span className="h-0.5 flex-1 bg-yellow-500"></span>
@@ -259,7 +259,7 @@ const AboutMe = () => {
                                     />
 
                                 </div>
-
+                                <br />
 
                                 <span className="flex items-center">
                                     <span className="h-0.5 flex-1 bg-yellow-500"></span>

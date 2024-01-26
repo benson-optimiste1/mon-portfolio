@@ -37,7 +37,7 @@ export default function Footer() {
 						<div className="mt-6 flex justify-center gap-4 lg:justify-start">
 							<a
 								className="text-gray-50 transition hover:text-gray-700/75"
-								href=""
+								href="https://www.facebook.com/chatelain.benson?mibextid=ZbWKwL"
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -54,7 +54,7 @@ export default function Footer() {
 
 							<a
 								className="text-gray-50 transition hover:text-gray-700/75"
-								href=""
+								href="https://www.instagram.com/benson_optimiste?igsh=Ynl3ZHgxMDFicWQy"
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -71,7 +71,7 @@ export default function Footer() {
 
 							<a
 								className="text-gray-50 transition hover:text-gray-700/75"
-								href=""
+								href="https://x.com/Ing_Evelybenson?t=nzFPsXM5wr4OmdgnZcyxGA&s=09"
 								target="_blank"
 								rel="noreferrer"
 							>
@@ -86,7 +86,7 @@ export default function Footer() {
 
 							<a
 								className="text-gray-50 transition hover:text-gray-700/75"
-								href=""
+								href="https://github.com/benson-optimiste1"
 								target="_blank"
 								rel="noreferrer"
 							>
