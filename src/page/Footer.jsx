@@ -1,9 +1,9 @@
 export default function Footer() {
 	return (
-		<footer className="bg-white">
+		<footer className="bg-gray-800">
 			<div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
 				{/* <div className="mx-auto max-w-md">
-					<strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
+					<strong className="block text-center text-xl font-bold text-green-500 sm:text-3xl">
 						Want us to email you with the latest blockbuster news?
 					</strong>
 
@@ -29,14 +29,14 @@ export default function Footer() {
 
 				<div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
 					<div className="mx-auto max-w-sm lg:max-w-none">
-						<p className="mt-4 text-center text-gray-500 lg:text-left lg:text-lg">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium natus quod eveniet
-							aut perferendis distinctio iusto repudiandae, provident velit earum?
+						<p className="mt-4 text-center text-gray-50 lg:text-left lg:text-lg">
+							What are you waiting for?
+							Write to me now and stay tuned, as there's a lot more to come. 😊
 						</p>
 
 						<div className="mt-6 flex justify-center gap-4 lg:justify-start">
 							<a
-								className="text-gray-700 transition hover:text-gray-700/75"
+								className="text-gray-50 transition hover:text-gray-700/75"
 								href=""
 								target="_blank"
 								rel="noreferrer"
@@ -53,7 +53,7 @@ export default function Footer() {
 							</a>
 
 							<a
-								className="text-gray-700 transition hover:text-gray-700/75"
+								className="text-gray-50 transition hover:text-gray-700/75"
 								href=""
 								target="_blank"
 								rel="noreferrer"
@@ -70,7 +70,7 @@ export default function Footer() {
 							</a>
 
 							<a
-								className="text-gray-700 transition hover:text-gray-700/75"
+								className="text-gray-50 transition hover:text-gray-700/75"
 								href=""
 								target="_blank"
 								rel="noreferrer"
@@ -85,7 +85,7 @@ export default function Footer() {
 							</a>
 
 							<a
-								className="text-gray-700 transition hover:text-gray-700/75"
+								className="text-gray-50 transition hover:text-gray-700/75"
 								href=""
 								target="_blank"
 								rel="noreferrer"
@@ -100,19 +100,27 @@ export default function Footer() {
 									/>
 								</svg>
 							</a>
-
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								fillRule="evenodd"
-								viewBox="0 0 24 24"
-								className="h-6 w-6"
-								clipRule="evenodd"
-								
+							<a
+								className="text-gray-50 transition hover:text-gray-700/75"
+								href=""
+								target="_blank"
+								rel="noreferrer"
 							>
-								<path
-									d="M21,0H3C1.4,0,0,1.4,0,3v18c0,1.6,1.4,3,3,3h18c1.6,0,3-1.4,3-3V3C24,1.4,22.6,0,21,0z M7.5,18.8H4.9V9.5h2.6V18.8z M6.2,8.1 c-0.9,0-1.6-0.7-1.6-1.6c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6C7.8,7.4,7.1,8.1,6.2,8.1z M18.7,18.8h-2.6v-4.3 c0-1,0-2.3-1.4-2.3c-1.5,0-1.7,1.1-1.7,2.2v4.4H10V9.5h2.5v1.2h0c0.3-0.6,1.1-1.4,2.4-1.4c2.7,0,3.2,1.8,3.2,4.1V18.8z"
-								/>
-							</svg>
+
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 24 24"
+									fill="none"
+									stroke="currentColor"
+									stroke-width="2"
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									class="feather feather-linkedin text-gray-50 transition hover:text-gray-700/75"
+								>
+									<text x="0" y="15" font-size="15">LinkedIn</text>
+								</svg>
+
+							</a>
 
 
 						</div>
@@ -120,27 +128,27 @@ export default function Footer() {
 
 					<div className="grid grid-cols-1 gap-8 text-center lg:grid-cols-3 lg:text-left">
 						<div>
-							<strong className="font-medium text-gray-900"> Services </strong>
+							<strong className="font-medium text-green-500"> Services </strong>
 
 							<ul className="mt-6 space-y-1">
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> Marketing </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Marketing </a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/">
 										Graphic Design
 									</a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/">
 										App Development
 									</a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/">
 										Web Development
 									</a>
 								</li>
@@ -148,49 +156,49 @@ export default function Footer() {
 						</div>
 
 						<div>
-							<strong className="font-medium text-gray-900"> About </strong>
+							<strong className="font-medium text-green-500"> About </strong>
 
 							<ul className="mt-6 space-y-1">
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> About </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> About </a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> Careers </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Careers </a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> History </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> History </a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> Our Team </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Our Team </a>
 								</li>
 							</ul>
 						</div>
 
 						<div>
-							<strong className="font-medium text-gray-900"> Support </strong>
+							<strong className="font-medium text-green-500"> Support </strong>
 
 							<ul className="mt-6 space-y-1">
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> FAQs </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> FAQs </a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> Contact </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Contact </a>
 								</li>
 
 								<li>
-									<a className="text-gray-700 transition hover:text-gray-700/75" href="/"> Live Chat </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Live Chat </a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 
-				<div className="mt-16 border-t border-gray-300 pt-8">
-					<p className="text-center text-xs/relaxed text-gray-500">
+				<div className="mt-16 border-t border-gray-50 pt-8">
+					<p className="text-center text-xs/relaxed text-gray-50">
 						© Evelybenson Chatelain 2024. All rights reserved.
 
 						<br />

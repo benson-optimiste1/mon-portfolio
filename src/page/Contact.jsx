@@ -4,17 +4,17 @@ const Contact = () => {
   return (
     <div>
       <section className="py-6 bg-gray-50 text-gray-950">
-      <div className="mx-auto max-w-xl p-28 text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+        <div className="mx-auto max-w-xl p-28 text-center ltr:sm:text-left rtl:sm:text-right">
+          <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
             Stay In Touch
 
-            </h2>
-            <span className="flex items-center">
-              <span className="h-0.5 flex-1 bg-indigo-500"></span>
-              <span className="shrink-0 px-6">With Benson Data</span>
-              <span className="h-0.5 flex-1 bg-indigo-500"></span>
-            </span>
-          </div>
+          </h2>
+          <span className="flex items-center">
+            <span className="h-0.5 flex-1 bg-indigo-500"></span>
+            <span className="shrink-0 px-6">With Benson Data</span>
+            <span className="h-0.5 flex-1 bg-indigo-500"></span>
+          </span>
+        </div>
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">
             <h1 className="text-4xl font-bold">Get in touch</h1>
@@ -41,22 +41,29 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <form novalidate="" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+          <form action="https://formspree.io/f/xwkgvrgz" method="POST" className="flex flex-col py-6 space-y-6 md:py-0 md:px-6">
+
             <label className="block">
               <span className="mb-1">Full name</span>
-              <input type="text" placeholder="Benson Data" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-gray-200" />
+              <input type="text" name="full_name" placeholder="Benson Data" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-gray-200" required />
             </label>
+
             <label className="block">
               <span className="mb-1">Email address</span>
-              <input type="email" placeholder="bensondata@gmail.com" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-gray-200" />
+              <input type="email" name="email" placeholder="bensondata@gmail.com" className="block w-full rounded-md shadow-sm focus:ring focus:ri focus:ri bg-gray-200" required />
             </label>
+
             <label className="block">
               <span className="mb-1">Message</span>
-              <textarea rows="3" className="block w-full rounded-md focus:ring focus:ri focus:ri bg-gray-200"></textarea>
+              <textarea name="message" rows="3" className="block w-full rounded-md focus:ring focus:ri focus:ri bg-gray-200" required></textarea>
             </label>
-            <button type="button" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri bg-indigo-600 text-gray-50 focus:ri hover:ri">Submit</button>
+
+            <button type="submit" className="self-center px-8 py-3 text-lg rounded focus:ring hover:ring focus:ri bg-indigo-600 text-gray-50 focus:ri hover:ri">Send</button>
+
           </form>
+
         </div>
+
         <h1 className=" p-20 text-center text-xl font-small text-gray-900 md:text-l ">For any inquiries, please do not hesitate to contact us via email or phone. Alternatively, you can use the contact form below to send us a message. We will get back to you as soon as possible. Thank you for your interest in our services.</h1>
       </section>
     </div>

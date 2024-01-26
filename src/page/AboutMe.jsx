@@ -15,9 +15,9 @@ const AboutMe = () => {
                     <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center md:text-left">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                             <span class="flex items-center">
-                                <span class="h-1 flex-1 bg-indigo-500"></span>
+                                <span class="h-1 flex-1 bg-yellow-500"></span>
                                 <span class="shrink-0 px-6">About Me</span>
-                                <span class="h-0.5 flex-1 bg-indigo-500"></span>
+                                <span class="h-0.5 flex-1 bg-yellow-500"></span>
                             </span>
                         </h1>
                         <p class="mb-8 leading-relaxed">I am Evelybenson Chatelain, a multifaceted professional with expertise in graphic design, civil engineering, and software development. I’m passionate about creating innovative solutions that bridge the gap between creativity and functionality.
@@ -159,7 +159,7 @@ const AboutMe = () => {
                             <a
                                 href="https://drive.google.com/file/d/1JTNFowgqtrlcaX5ooNfTp88CdVBEMxGI/view?usp=drivesdk"
                                 download="Evelybenson_Chatelain_Resume_2024.pdf"
-                                className="inline-block rounded bg-indigo-600 px-10 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                                className="inline-block rounded bg-green-600 px-10 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
                             >
                                 Download resume
                             </a>
@@ -179,7 +179,7 @@ const AboutMe = () => {
                         What My Clients Say
                     </h2>
                     <span className="flex items-center">
-                        <span className="h-0.5 flex-1 bg-green-500"></span>
+                        <span className="h-0.5 flex-1 bg-yellow-500"></span>
                     </span>
                 </div>
 
@@ -195,17 +195,17 @@ const AboutMe = () => {
                                     <img
 
                                         className="h-16 w-16 rounded-full"
-                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        src="/images/client3.png"
                                         alt=""
                                     />
-
                                 </div>
+                                <br/>
 
 
                                 <span className="flex items-center">
-                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="h-0.5 flex-1 bg-yellow-500"></span>
                                     <span className="shrink-0 px-6">Johnsley Simeon</span>
-                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="h-0.5 flex-1 bg-yellow-500"></span>
                                 </span>
                                 <br />
                                 <p class="leading-relaxed mb-3">
@@ -225,7 +225,7 @@ const AboutMe = () => {
                                     <img
 
                                         className="h-16 w-16 rounded-full"
-                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        src="/images/client1.jpg"
                                         alt=""
                                     />
 
@@ -233,9 +233,9 @@ const AboutMe = () => {
 
 
                                 <span className="flex items-center">
-                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
-                                    <span className="shrink-0 px-6">Johnsley Simeon</span>
-                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="h-0.5 flex-1 bg-yellow-500"></span>
+                                    <span className="shrink-0 px-6">Esther Stephnaia C.</span>
+                                    <span className="h-0.5 flex-1 bg-yellow-500"></span>
                                 </span>
                                 <br />
                                 <p class="leading-relaxed mb-3">
@@ -254,7 +254,7 @@ const AboutMe = () => {
                                     <img
 
                                         className="h-16 w-16 rounded-full"
-                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        src="/images/client2.jpg"
                                         alt=""
                                     />
 
@@ -262,9 +262,9 @@ const AboutMe = () => {
 
 
                                 <span className="flex items-center">
-                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
-                                    <span className="shrink-0 px-6">Johnsley Simeon</span>
-                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="h-0.5 flex-1 bg-yellow-500"></span>
+                                    <span className="shrink-0 px-6">Glissie Fleurimon</span>
+                                    <span className="h-0.5 flex-1 bg-yellow-500"></span>
                                 </span>
                                 <br />
                                 <p class="leading-relaxed mb-3">

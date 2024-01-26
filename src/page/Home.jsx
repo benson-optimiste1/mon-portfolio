@@ -119,7 +119,7 @@ export default function Home() {
                 A Multi-Talented
                 <br className="hidden lg:inline-block" /> Professional
               </h1>
-              <p className="mb-8 leading-relaxed text-xl">
+              <p className="mb-8 leading-relaxed  mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500">
                 As a software engineer, civil engineer, and graphic designer, I offer a unique blend of skills and experience that enables me to tackle complex challenges and deliver innovative solutions. With expertise in software development, UI/UX design, and software architecture, I provide comprehensive solutions that are tailored to your specific needs. Whether you need a robust software application, a stunning website, or an efficient infrastructure, I have the skills and experience to deliver results. In summary, Evelybenson is a driving force in the tech world, leaving an indelible mark through his coding prowess and design finesse. 🚀🎨💻
               </p>
               <div className="flex justify-center">
