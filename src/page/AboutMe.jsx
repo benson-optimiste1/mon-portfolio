@@ -3,13 +3,16 @@ import React from 'react';
 const AboutMe = () => {
     return (
         <div>
-            <section class="text-gray-600 body-font">
-                <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
-                    <div class="lg:flex-grow md:w-1/2 w-5/6 mb-10 md:mb-0">
-                        <img class="object-cover object-center rounded h-64 w-full md:w-64" alt="" src="/images/profil.jpg" />
+            <section className="text-gray-600 body-font">
+                <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-4 px-5 py-24">
+                    <div className="lg:flex-grow md:w-1/2 w-full mb-10 md:mb-0">
+                        <img
+                            className="object-cover object-center rounded h-64 w-full md:w-64"
+                            alt=""
+                            src="/images/profil.jpg" />
                     </div>
 
-                    <div class="lg:flex-grow md:w-1/2 flex flex-col items-center text-left">
+                    <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center md:text-left">
                         <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                             <span class="flex items-center">
                                 <span class="h-1 flex-1 bg-indigo-500"></span>
@@ -30,7 +33,7 @@ const AboutMe = () => {
                         <div class="mt-6 flex justify-center items-center gap-2 ">
                             <a
                                 className="text-gray-700 transition hover:text-gray-700/75 "
-                                href=""
+                                href="https://www.facebook.com/chatelain.benson?mibextid=ZbWKwL"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -47,7 +50,7 @@ const AboutMe = () => {
 
                             <a
                                 className="text-gray-700 transition hover:text-gray-700/75"
-                                href=""
+                                href="https://www.instagram.com/benson_optimiste?igsh=Ynl3ZHgxMDFicWQy"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -64,7 +67,7 @@ const AboutMe = () => {
 
                             <a
                                 className="text-gray-700 transition hover:text-gray-700/75"
-                                href=""
+                                href="https://x.com/Ing_Evelybenson?t=nzFPsXM5wr4OmdgnZcyxGA&s=09"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -79,7 +82,7 @@ const AboutMe = () => {
 
                             <a
                                 className="text-gray-700 transition hover:text-gray-700/75"
-                                href=""
+                                href="https://github.com/benson-optimiste1"
                                 target="_blank"
                                 rel="noreferrer"
                             >
@@ -118,7 +121,7 @@ const AboutMe = () => {
 
             <div className="relative overflow-hidden bg-white">
                 <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
-                    <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 flex">
+                    <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 flex flex-col md:flex-row items-center">
                         <div className="sm:max-w-lg pr-8">
                             <h1 className="text-s font-medium tracking-tight text-gray-950 sm:text-6xl">
                                 My Services
@@ -151,10 +154,135 @@ const AboutMe = () => {
 
 
                     </div>
+                    <div className="mt-4 md:mt-8 px-18">
+                        <div className="mt-3 md:mt-8 px-28">
+                            <a
+                                href="https://drive.google.com/file/d/1JTNFowgqtrlcaX5ooNfTp88CdVBEMxGI/view?usp=drivesdk"
+                                download="Evelybenson_Chatelain_Resume_2024.pdf"
+                                className="inline-block rounded bg-indigo-600 px-10 py-3 text-sm font-medium text-white transition hover:bg-emerald-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                            >
+                                Download resume
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+                <div className="mx-auto max-w-4xl text-center ltr:l:text-left rtl:l:text-right">
+                    <h2 className="text-4xl font-bold fong-medium text-gray-900 l:text-4xl">
+                        What My Clients Say
+                    </h2>
+                    <span className="flex items-center">
+                        <span className="h-0.5 flex-1 bg-green-500"></span>
+                    </span>
+                </div>
+
+
+
+                <div class="container px-3 py-24 mx-auto">
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                {/* <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Software Development</h1> */}
+                                <div className="flex flex-shrink-0 items-center justify-center">
+                                    <img
+
+                                        className="h-16 w-16 rounded-full"
+                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt=""
+                                    />
+
+                                </div>
+
+
+                                <span className="flex items-center">
+                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="shrink-0 px-6">Johnsley Simeon</span>
+                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                </span>
+                                <br />
+                                <p class="leading-relaxed mb-3">
+                                    Evelybenson's graphic design skills are outstanding. They created a logo and branding materials for our business that perfectly captured our vision and values. We couldn't be happier with the results.
+                                </p>
+                                <h1>⭐️⭐️⭐️⭐️⭐️</h1>
+                                <div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <div className="flex flex-shrink-0 items-center justify-center">
+                                    <img
+
+                                        className="h-16 w-16 rounded-full"
+                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt=""
+                                    />
+
+                                </div>
+
+
+                                <span className="flex items-center">
+                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="shrink-0 px-6">Johnsley Simeon</span>
+                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                </span>
+                                <br />
+                                <p class="leading-relaxed mb-3">
+                                    Evelybenson's civil engineering expertise was invaluable for our construction project. They provided structural designs that were safe, efficient, and cost-effective, and helped us navigate the complex regulatory landscape with ease.
+                                </p>
+                                <h1>⭐️⭐️⭐️⭐️⭐️</h1>
+                                <div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-4 lg:w-1/3">
+                            <div class="h-full bg-gray-100 bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+
+                                <div className="flex flex-shrink-0 items-center justify-center">
+                                    <img
+
+                                        className="h-16 w-16 rounded-full"
+                                        src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                        alt=""
+                                    />
+
+                                </div>
+
+
+                                <span className="flex items-center">
+                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                    <span className="shrink-0 px-6">Johnsley Simeon</span>
+                                    <span className="h-0.5 flex-1 bg-indigo-500"></span>
+                                </span>
+                                <br />
+                                <p class="leading-relaxed mb-3">
+                                    Evelybenson's software development skills are top-notch. They created a custom web application for our business that has transformed our operations and made our workflows much more efficient.
+                                    We highly recommend their
+                                    services
+                                </p>
+                                <h1>⭐️⭐️⭐️⭐️⭐️</h1>
+                                <div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-
 
 
 

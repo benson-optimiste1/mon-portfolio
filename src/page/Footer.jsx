@@ -1,8 +1,8 @@
 export default function Footer() {
 	return (
-		<footer className="bg-gray-50">
+		<footer className="bg-white">
 			<div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
-				<div className="mx-auto max-w-md">
+				{/* <div className="mx-auto max-w-md">
 					<strong className="block text-center text-xl font-bold text-gray-900 sm:text-3xl">
 						Want us to email you with the latest blockbuster news?
 					</strong>
@@ -25,7 +25,7 @@ export default function Footer() {
 							</button>
 						</div>
 					</form>
-				</div>
+				</div>	 */}
 
 				<div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
 					<div className="mx-auto max-w-sm lg:max-w-none">
@@ -101,22 +101,20 @@ export default function Footer() {
 								</svg>
 							</a>
 
-							<a
-								className="text-gray-700 transition hover:text-gray-700/75"
-								href=""
-								target="_blank"
-								rel="noreferrer"
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fillRule="evenodd"
+								viewBox="0 0 24 24"
+								className="h-6 w-6"
+								clipRule="evenodd"
+								
 							>
-								<span className="sr-only"> Dribbble </span>
+								<path
+									d="M21,0H3C1.4,0,0,1.4,0,3v18c0,1.6,1.4,3,3,3h18c1.6,0,3-1.4,3-3V3C24,1.4,22.6,0,21,0z M7.5,18.8H4.9V9.5h2.6V18.8z M6.2,8.1 c-0.9,0-1.6-0.7-1.6-1.6c0-0.9,0.7-1.6,1.6-1.6c0.9,0,1.6,0.7,1.6,1.6C7.8,7.4,7.1,8.1,6.2,8.1z M18.7,18.8h-2.6v-4.3 c0-1,0-2.3-1.4-2.3c-1.5,0-1.7,1.1-1.7,2.2v4.4H10V9.5h2.5v1.2h0c0.3-0.6,1.1-1.4,2.4-1.4c2.7,0,3.2,1.8,3.2,4.1V18.8z"
+								/>
+							</svg>
 
-								<svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-									<path
-										fillRule="evenodd"
-										d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
-										clipRule="evenodd"
-									/>
-								</svg>
-							</a>
+
 						</div>
 					</div>
 
@@ -191,18 +189,13 @@ export default function Footer() {
 					</div>
 				</div>
 
-				<div className="mt-16 border-t border-gray-100 pt-8">
+				<div className="mt-16 border-t border-gray-300 pt-8">
 					<p className="text-center text-xs/relaxed text-gray-500">
 						© Evelybenson Chatelain 2024. All rights reserved.
 
 						<br />
 
-						{/* Created with
-						<a href="" className="text-gray-700 underline transition hover:text-gray-700/75">Laravel</a>
-						and
-						<a href="" className="text-gray-700 underline transition hover:text-gray-700/75"
-						>Laravel Livewire</a
-						>. */}
+
 					</p>
 				</div>
 			</div>
