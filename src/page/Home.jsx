@@ -6,7 +6,7 @@ export default function Home() {
         <div className="pb-16 pt-8 sm:pb-40 sm:pt-12 lg:pb-48 lg:pt-24">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
+              <h1 className="text-2xl sm:text-6xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900">
                 EVELYBENSON CHATELAIN
               </h1>
 
@@ -99,9 +99,12 @@ export default function Home() {
       <br />
 
 
+
+
+
       <div className="p-8 md:p-12 lg:px-16 lg:py-24">
         <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-          <h2 className="text-5xl font-bold text-gray-900 md:text-3xl">
+          <h2 className="text-3xl sm:text-6xl font-bold text-gray-900 md:text-3xl">
             ABOUT ME
           </h2>
           <span className="flex items-center">
@@ -116,8 +119,8 @@ export default function Home() {
             </div>
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-900">
-                A Multi-Talented
-                <br className="hidden lg:inline-block" /> Professional
+                A Multi-Talented Professional
+                <br className="hidden lg:inline-block" /> 
               </h1>
               <p className="mb-8 leading-relaxed  mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500">
                 As a software engineer, civil engineer, and graphic designer, I offer a unique blend of skills and experience that enables me to tackle complex challenges and deliver innovative solutions. With expertise in software development, UI/UX design, and software architecture, I provide comprehensive solutions that are tailored to your specific needs. Whether you need a robust software application, a stunning website, or an efficient infrastructure, I have the skills and experience to deliver results. In summary, Evelybenson is a driving force in the tech world, leaving an indelible mark through his coding prowess and design finesse. 🚀🎨💻
@@ -145,7 +148,7 @@ export default function Home() {
           <br />
           <br />
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+            <h2 className="text-3xl font-bold sm:text-6xl text-gray-900 md:text-3xl">
               What Services I'm Providing
             </h2>
             <span className="flex items-center">
@@ -253,9 +256,13 @@ export default function Home() {
           </section>
         </div>
 
+
+
+
+
         <section class="text-gray-600 body-font bg-gray-100">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
-            <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+            <h2 className="text-3xl sm:text-6xl font-bold text-gray-900 md:text-3xl">
               Work Experience
             </h2>
             <span className="flex items-center">

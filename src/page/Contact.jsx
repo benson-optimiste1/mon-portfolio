@@ -5,7 +5,7 @@ const Contact = () => {
     <div>
       <section className="py-6 bg-gray-50 text-gray-950">
         <div className="mx-auto max-w-xl p-28 text-center ltr:sm:text-left rtl:sm:text-right">
-          <h2 className="text-2xl font-bold text-gray-900 md:text-3xl">
+          <h2 className="text-3xl font-bold sm:text-6xl text-gray-900 md:text-3xl">
             Stay In Touch
 
           </h2>
@@ -17,7 +17,7 @@ const Contact = () => {
         </div>
         <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">
-            <h1 className="text-4xl font-bold">Get in touch</h1>
+            <h1 className="text-2xl font-bold">Get in touch</h1>
             <p className="pt-2 pb-4">Fill in the form to start a conversation</p>
             <div className="space-y-4">
               <p className="flex items-center">
