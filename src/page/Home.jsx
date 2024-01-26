@@ -106,7 +106,7 @@ export default function Home() {
             <span className="h-0.5 flex-1  bg-indigo-500"></span>
             
           </span>
-            <p className="hidden text-gray-500 md:mt-4 md:block">
+            <p className="hidden text-gray-500 mt-4 text-xl">
               Evelybenson Chatelain is a dynamic Full Stack Developer and software engineer,
               passionate about crafting exceptional digital experiences.
               He excels in technologies such as React, React Native, TypeScript, JavaScript, Node.js, and Express.js,
