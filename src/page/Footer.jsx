@@ -101,26 +101,20 @@ export default function Footer() {
 								</svg>
 							</a>
 							<a
-								className="text-gray-50 transition hover:text-gray-700/75"
-								href=""
-								target="_blank"
-								rel="noreferrer"
-							>
-
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 24 24"
-									fill="none"
-									stroke="currentColor"
-									stroke-width="2"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									class="feather feather-linkedin text-gray-50 transition hover:text-gray-700/75"
-								>
-									<text x="0" y="15" font-size="15">LinkedIn</text>
-								</svg>
-
-							</a>
+                                className="text-gray-50 transition hover:text-gray-700/75"
+                                href="https:www.linkedin.com/in/evelybensonchatelain"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <span className="sr-only">linkedin</span>
+                                <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                    <path
+                                        fillRule="evenodd"
+                                        d="M3 2h18a3 3 0 0 1 3 3v14a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V5a3 3 0 0 1 3-3zm2 2a1 1 0 0 0-1 1v10h2V5a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v10h2V5a1 1 0 0 0-1-1zm11 10h2V8h-2v6zm-4-6h2v10h-2v-5a2 2 0 0 0-2-2 2 2 0 0 0-2 2v5h-2V8h2v1a4 4 0 0 1 4-4 4 4 0 0 1 4 4v6z"
+                                        clipRule="evenodd"
+                                    />
+                                </svg>
+                            </a>
 
 
 						</div>
