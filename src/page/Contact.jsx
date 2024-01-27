@@ -64,7 +64,7 @@ const Contact = () => {
 
         </div>
 
-        <h1 className=" p-10 text-center text-s font-small text-gray-900 md:text-s ">For any inquiries, please do not hesitate to contact us via email or phone. Alternatively, you can use the contact form below to send us a message. We will get back to you as soon as possible. Thank you for your interest in our services.</h1>
+        <h1 className=" p-10 text-center text-xs font-small text-gray-900 md:text-xs ">For any inquiries, please do not hesitate to contact us via email or phone. Alternatively, you can use the contact form below to send us a message. We will get back to you as soon as possible. Thank you for your interest in our services.</h1>
       </section>
     </div>
   );

@@ -234,7 +234,7 @@ const AboutMe = () => {
 
                                 <span className="flex items-center">
                                     <span className="h-0.5 flex-1 bg-yellow-500"></span>
-                                    <span className="shrink-0 px-6">Esther Stephnaia C.</span>
+                                    <span className="shrink-0 px-6">Esther Stéphania C.</span>
                                     <span className="h-0.5 flex-1 bg-yellow-500"></span>
                                 </span>
                                 <br />
