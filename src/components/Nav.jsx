@@ -1,19 +1,3 @@
-
-
-// const Nav = () => {
-//   return (
-//     <nav>
-//       <ul>
-//         <li><a href="/">Home</a></li>
-//         <li><a href="/about">AboutMe</a></li>
-//         <li><a href="/projects">Projects</a></li>
-//         <li><a href="/contact">Contact</a></li>
-//       </ul>
-//     </nav>
-//   );
-// }
-
-// export default Nav; 
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
@@ -87,14 +71,14 @@ export default function Nav() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Menu.Button className="relative flex text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
-                      {/* <img
-                        className="h-8 w-8 rounded-full"
-                        src="./public/image/profile.jpg"
-                        alt="profile"
-                      /> */}
+                      <img
+                        className="h-28 w-auto max-w-full "
+                        src="/images/logo.png"
+                        alt=""
+                      />
                     </Menu.Button>
                   </div>
                   <Transition
