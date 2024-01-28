@@ -140,14 +140,14 @@ const AboutMe = () => {
 
                             <div className="w-full h-4 bg-gray-400 rounded-full mt-7">
                                 <div className="w-3/4 h-full text-center text-xs text-white bg-green-500 rounded-full">
-                                    Structural Analysis and Design
+                                    Structural Analysis and Design.
                                 </div>
                             </div>
 
 
                             <div className="w-full h-4 bg-gray-400 rounded-full mt-7">
                                 <div className="w-3/4 h-full text-center text-xs text-white bg-green-500 rounded-full">
-                                    Web Application Development using Python and JavaScript
+                                    Web Application Development using Python and JavaScript.
                                 </div>
                             </div>
                         </div>
