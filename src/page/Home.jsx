@@ -96,7 +96,7 @@ export default function Home() {
         </div>
       </div>
 
-      <br />
+      
 
 
 
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
 
         <section className="text-gray-600 body-font">
-          <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 py-24 md:px-10">
+          <div className="container mx-auto flex flex-col-reverse lg:flex-row items-center px-5 py-20 md:px-10">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-full">
               <img className="object-cover object-center rounded" alt="hero" src="/images/photo.jpg" />
             </div>
