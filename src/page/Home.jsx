@@ -131,7 +131,7 @@ export default function Home() {
               <div className="flex justify-center">
                 <a
                   href="https://www.linkedin.com/in/evelybensonchatelain/"
-                  className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                  className="inline-flex text-white bg-indigo-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-700 rounded text-lg"
                 >
                   Connect on LinkedIn
                 </a>
