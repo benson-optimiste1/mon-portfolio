@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
 
@@ -83,13 +85,14 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-
-                <a
-                  href="#"
+                  <Link to="/about" className="inline-block rounded-md border border-transparent bg-indigo-600 px-4 sm:px-6 py-2 sm:py-3 text-center font-medium text-white hover:bg-indigo-700">
+                <a 
+                  href="/about"
                   className="inline-block rounded-md border border-transparent bg-indigo-600 px-4 sm:px-6 py-2 sm:py-3 text-center font-medium text-white hover:bg-indigo-700"
                 >
                   Learn more
                 </a>
+                </Link>
               </div>
             </div>
           </div>

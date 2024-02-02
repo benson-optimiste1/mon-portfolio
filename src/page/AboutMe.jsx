@@ -4,13 +4,14 @@ const AboutMe = () => {
     return (
         <div>
             <section className="text-gray-600 body-font">
-                <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-4 px-5 py-24">
-                    <div className="lg:flex-grow md:w-1/2 w-full mb-10 md:mb-0">
-                        <img
-                            className="object-cover object-center rounded h-64 w-full md:w-64"
-                            alt=""
-                            src="/images/profil.jpg" />
-                    </div>
+        <div className="container mx-auto flex flex-col md:flex-row items-center md:space-x-4 px-5 py-24">
+          <div className="lg:flex-grow md:w-1/2 w-full mb-10 md:mb-0">
+            <img
+              className="object-cover object-center rounded h-64 w-full md:w-64"
+              alt=""
+              src="/images/profil.jpg"
+            />
+          </div>
 
                     <div className="lg:flex-grow md:w-1/2 flex flex-col items-center text-center md:text-left">
                         <h1 class="title-font sm:text-6xl text-3xl mb-4 font-medium text-gray-900">
