@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Link } from 'react-router-dom'
 
 const navigation = [
   { name: 'Home', href: '/', current: true },
@@ -67,12 +68,14 @@ export default function Nav() {
                     
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
-                      <img
-                        className="h-28 w-auto max-w-full "
-                        src="/images/logo.png"
-                        alt=""
-                      />
-                   
+      
+                     <img
+                       className="h-28 w-auto max-w-full "
+                       src="/images/logo.png"
+                       alt=""
+                       />
+                       
+         
                   </div>
                   <Transition
                     as={Fragment}

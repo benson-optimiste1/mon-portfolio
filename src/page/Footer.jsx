@@ -1,7 +1,7 @@
 export default function Footer() {
 	return (
 		<footer className="bg-gray-800">
-			<div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+			<div className="mx-auto max-w-screen-xl px-4 pb-8 pt-10 sm:px-6 lg:px-8">
 				{/* <div className="mx-auto max-w-md">
 					<strong className="block text-center text-xl font-bold text-green-500 sm:text-3xl">
 						Want us to email you with the latest blockbuster news?
@@ -29,6 +29,8 @@ export default function Footer() {
 
 				<div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
 					<div className="mx-auto max-w-sm lg:max-w-none">
+						<img className="mx-auto h-16 mt-4 w-auto sm:h-18 sm:mt-0 sm:w-auto lg:mx-0 lg:h-20 lg:w-auto" 
+						src="/images/logo.png"  alt="" />
 						<p className="mt-4 text-center text-gray-50 lg:text-left lg:text-lg">
 							What are you waiting for?
 							Write to me now and stay tuned, as there's a lot more to come. 😊
@@ -154,20 +156,13 @@ export default function Footer() {
 
 							<ul className="mt-6 space-y-1">
 								<li>
-									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> About </a>
-								</li>
-
-								<li>
-									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Careers </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/about"> About </a>
 								</li>
 
 								<li>
 									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> History </a>
 								</li>
 
-								<li>
-									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Our Team </a>
-								</li>
 							</ul>
 						</div>
 
@@ -175,17 +170,13 @@ export default function Footer() {
 							<strong className="font-medium text-green-500"> Support </strong>
 
 							<ul className="mt-6 space-y-1">
-								<li>
-									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> FAQs </a>
-								</li>
+								
 
 								<li>
-									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Contact </a>
+									<a className="text-gray-50 transition hover:text-gray-700/75" href="/contact"> Contact </a>
 								</li>
 
-								<li>
-									<a className="text-gray-50 transition hover:text-gray-700/75" href="/"> Live Chat </a>
-								</li>
+							
 							</ul>
 						</div>
 					</div>
