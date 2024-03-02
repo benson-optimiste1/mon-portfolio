@@ -33,7 +33,7 @@ const callouts = [
   },
   {
     name: 'IMCONA WEB APP',
-    description: 'Imigration connect web app',
+    description: 'Immigration connect web app',
     imageSrc: '/images/5.png',
     imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
     href: 'https://fir-auth-ceb.web.app/',
