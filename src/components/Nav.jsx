@@ -61,7 +61,11 @@ export default function Nav() {
                   <span className="absolute -inset-1.5" />
                 
                 </button>
-
+                <img
+                       className="h-28 w-auto max-w-full "
+                       src="/images/logo.png"
+                       alt=""
+                       />
                 
                 <Menu as="div" className="relative ml-3">
                   <div>
@@ -69,11 +73,7 @@ export default function Nav() {
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
       
-                     <img
-                       className="h-28 w-auto max-w-full "
-                       src="/images/logo.png"
-                       alt=""
-                       />
+                    
                        
          
                   </div>

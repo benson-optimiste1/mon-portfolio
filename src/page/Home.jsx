@@ -12,7 +12,7 @@ export default function Home() {
                 EVELYBENSON CHATELAIN
               </h1>
 
-              <p className="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500">
+              <p className="mt-2 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500">
                 Welcome to the online home of Evelybenson Chatelain, a versatile and skilled professional in graphic design, civil engineering, and software development. With a dedication to excellence and a commitment to innovation, I offer a range of services that combine creativity, technical expertise, and strategic thinking to help you achieve your goals.
               </p>
             </div>
@@ -85,13 +85,13 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                  <Link to="/about" className="inline-block rounded-md border border-transparent bg-indigo-600 px-4 sm:px-6 py-2 sm:py-3 text-center font-medium text-white hover:bg-indigo-700">
-                <a 
-                  href="/about"
-                  className="inline-block rounded-md border border-transparent bg-indigo-600 px-4 sm:px-6 py-2 sm:py-3 text-center font-medium text-white hover:bg-indigo-700"
-                >
-                  Learn more
-                </a>
+                <Link to="/about" className="inline-block mb-full  rounded-md border border-transparent bg-indigo-600 px-4 sm:px-6 py-2 sm:py-3 text-center font-medium text-white hover:bg-indigo-700">
+                  <a
+                    href="/about"
+                    className="inline-block  rounded-md border border-transparent bg-indigo-600 px-4 sm:px-6 py-2 sm:py-3  text-center font-medium text-white hover:bg-indigo-700"
+                  >
+                    Learn more
+                  </a>
                 </Link>
               </div>
             </div>
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
       </div>
 
-      
+
 
 
 
@@ -123,7 +123,7 @@ export default function Home() {
             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
               <h1 className="title-font sm:text-3xl text-3xl mb-4 font-medium text-gray-900">
                 A Multi-Talented Professional
-                <br className="hidden lg:inline-block" /> 
+                <br className="hidden lg:inline-block" />
               </h1>
               <p className="mb-8 leading-relaxed  mt-4 text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500">
                 As a software engineer, civil engineer, and graphic designer, I offer a unique blend of skills and experience that enables me to tackle complex challenges and deliver innovative solutions. With expertise in software development, UI/UX design, and software architecture, I provide comprehensive solutions that are tailored to your specific needs. Whether you need a robust software application, a stunning website, or an efficient infrastructure, I have the skills and experience to deliver results. In summary, Evelybenson is a driving force in the tech world, leaving an indelible mark through his coding prowess and design finesse. 🚀🎨💻
@@ -262,8 +262,7 @@ export default function Home() {
 
 
 
-
-        <section class="text-gray-600 body-font bg-gray-100">
+        <section class="text-gray-600 body-font pt-20 ">
           <div className="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
             <h2 className="text-3xl sm:text-6xl font-bold text-gray-900 md:text-3xl">
               Work Experience
@@ -277,7 +276,7 @@ export default function Home() {
           <div class="container px-3 py-24 mx-auto">
             <div class="flex flex-wrap -m-4">
               <div class="p-4 lg:w-1/3">
-                <div class="h-full bg-white bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <div class="h-full bg-gray-100 bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Software Development</h1>
                   <p class="leading-relaxed mb-3">
@@ -298,7 +297,7 @@ export default function Home() {
                 </div>
               </div>
               <div class="p-4 lg:w-1/3">
-                <div class="h-full bg-white bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <div class="h-full bg-gray-100 bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Civil Engineering</h1>
                   <p class="leading-relaxed mb-3">
@@ -318,7 +317,7 @@ export default function Home() {
                 </div>
               </div>
               <div class="p-4 lg:w-1/3">
-                <div class="h-full bg-white bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                <div class="h-full bg-gray-100  bg-opacity-100 px-6 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
 
                   <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Graphic Design</h1>
                   <p class="leading-relaxed mb-3">
